@@ -4,7 +4,7 @@ This application is intended for supporting large-scale storage services that ex
 
 # Steps to Run
 # Step 1: 
-Start Zookeeper Server:The below command will start the Zookeeper server listening on localhost with port number 9999\
+Start Zookeeper Server:The below command will start the Zookeeper server listening on port number 9999\
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
 
 Start Zookeeper Client:This command will establish a connection between the client and server(Run client on a different terminal)\
