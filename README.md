@@ -27,5 +27,5 @@ iv. Replica's port number\
 # Command:
 java -cp    target/(mvn package).jar    directory.ReplicaClassName    (Zookeeper server's ip address):(port number)   /directory-name   (Replica ip)    (Replica port number)  
 
-For example:
+For example:\
 java -cp    target/chain-java-1.0-SNAPSHOT-jar-with-dependencies.jar    edu.sjsu.cs249.chain.TailChainServer    127.0.0.1:9999  /tailchain    172.20.10.4 4588
