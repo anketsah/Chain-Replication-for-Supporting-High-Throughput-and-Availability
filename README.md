@@ -1,4 +1,4 @@
-# Chain-Replication-for-Supporting-High-Throughput-and-Availability
+Chain-Replication-for-Supporting-High-Throughput-and-Availability:\
 This application is intended for supporting large-scale storage services that exhibit high throughput and availability without sacrificing strong consistency guarantees
 
 
@@ -20,9 +20,9 @@ Build Jar File: mvn package
 # Step 3: Run the replica:
 The following command takes parameters:\
 i. Zookeeper server's ip address and port number\
-ii. Directory on zookeeper to which our replica will join
-iii. Replica's ip address
-iv. Replica's port number
+ii. Directory on zookeeper to which our replica will join\
+iii. Replica's ip address\
+iv. Replica's port number\
 
 # Command:
 java -cp    target/(mvn package).jar    directory.ReplicaClassName    (Zookeeper server's ip address):(port number)   /directory-name   (Replica ip)    (Replica port number)  
