@@ -22,7 +22,7 @@ The following command takes parameters:\
 i. Zookeeper server's ip address and port number\
 ii. Directory on zookeeper to which our replica will join\
 iii. Replica's ip address\
-iv. Replica's port number\
+iv. Replica's port number
 
 # Command:
 java -cp    target/(mvn package).jar    directory.ReplicaClassName    (Zookeeper server's ip address):(port number)   /directory-name   (Replica ip)    (Replica port number)  
