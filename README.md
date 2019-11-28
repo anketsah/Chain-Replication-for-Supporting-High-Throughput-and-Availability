@@ -1,11 +1,12 @@
 # Chain-Replication-for-Supporting-High-Throughput-and-Availability
-# This application is intended for supporting large-scale storage services that exhibit high throughput and availability without sacrificing strong consistency guarantees
+This application is intended for supporting large-scale storage services that exhibit high throughput and availability without sacrificing strong consistency guarantees
+
 
 # Step 1: 
-# Start Zookeeper Server:The below command will start the Zookeeper server listening on localhost with port number 9999
+Start Zookeeper Server:The below command will start the Zookeeper server listening on localhost with port number 9999
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
 
-# Start Zookeeper Client:This command will establish a connection between the client and server(Run client on a different terminal)
+Start Zookeeper Client:This command will establish a connection between the client and server(Run client on a different terminal)
 java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
 
 
@@ -13,7 +14,6 @@ java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
 
 
 # Step 3: Run the replica:
-
 The following command takes parameters:
 i. Zookeeper server's ip address and port number
 ii. Directory on zookeeper to which our replica will join
