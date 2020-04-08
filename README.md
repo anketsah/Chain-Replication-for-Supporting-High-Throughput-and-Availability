@@ -5,7 +5,7 @@ Download <a href="https://sjsu.instructure.com/courses/1354488/files/55585055/do
 
 ## Steps to Run
 ### Step 1: 
-Start Zookeeper Server:The below command will start the Zookeeper server listening on port number 9999\
+Start Zookeeper Server:This command will start the Zookeeper server which listens on port number 9999\
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
 
 Start Zookeeper Client:This command will establish a connection between the client and server(Run client on a different terminal)\
@@ -14,8 +14,8 @@ java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
 
 
 ### Step 2: 
-Build Jar File: mvn package
-
+In IntelliJ/Eclipse create a new java project\ 
+Compile this project and create its jar\
 
 
 ### Step 3: Run the replica
