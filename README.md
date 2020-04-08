@@ -3,8 +3,8 @@ This application is intended for supporting large-scale storage services that ex
 
 Download <a href="https://sjsu.instructure.com/courses/1354488/files/55585055/download?wrap=1">Zookeeper Jar</a>
 
-# Steps to Run
-# Step 1: 
+## Steps to Run
+### Step 1: 
 Start Zookeeper Server:The below command will start the Zookeeper server listening on port number 9999\
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
 
@@ -13,19 +13,19 @@ java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
 
 
 
-# Step 2: 
+### Step 2: 
 Build Jar File: mvn package
 
 
 
-# Step 3: Run the replica
+### Step 3: Run the replica
 The following command takes parameters:\
 i. Zookeeper server's ip address and port number\
 ii. Directory on zookeeper to which our replica will join\
 iii. Replica's ip address\
 iv. Replica's port number
 
-# Command:
+### Command:
 java -cp    target/(mvn package).jar    directory.ReplicaClassName    (Zookeeper server's ip address):(port number)   /directory-name   (Replica's ip)    (Replica's port number)  
 
 For example:\
