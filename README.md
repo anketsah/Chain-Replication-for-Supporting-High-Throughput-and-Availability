@@ -14,8 +14,8 @@ java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
 
 
 ### Step 2: 
-In IntelliJ/Eclipse create a new java project\ 
-Compile this project and create its jar\
+In IntelliJ/Eclipse IDE create a new java project<br /> 
+Compile this project and create its jar<br />
 
 
 ### Step 3: Run the replica
