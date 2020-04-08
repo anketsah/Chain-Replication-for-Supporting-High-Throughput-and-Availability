@@ -19,7 +19,7 @@ Compile this project and create its jar<br />
 
 
 ### Step 3: Run the replica
-The following command takes parameters:\
+The command below takes the following parameters:\
 i. Zookeeper server's ip address and port number\
 ii. Directory on zookeeper to which our replica will join\
 iii. Replica's ip address\
