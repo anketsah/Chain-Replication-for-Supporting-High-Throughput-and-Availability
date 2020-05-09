@@ -1,9 +1,14 @@
 # Chain Replication for Supporting High Throughput and Availability
+
+## What is it?
 This application is intended for supporting large-scale storage services that exhibit high throughput and availability without sacrificing strong consistency guarantees
+
+## Technologies Use
+Java, gRPC, Apache Zookeeper\\
 
 Download <a href="https://sjsu.instructure.com/courses/1354488/files/55585055/download?wrap=1">Zookeeper Jar</a>
 
-## Steps to Run
+## How it works
 ### Step 1: 
 Start Zookeeper Server:This command will start the Zookeeper server which listens on port number 9999\
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
