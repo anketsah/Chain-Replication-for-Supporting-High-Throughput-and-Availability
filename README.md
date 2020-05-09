@@ -4,7 +4,7 @@
 This application is intended for supporting large-scale storage services that exhibit high throughput and availability without sacrificing strong consistency guarantees
 
 ## Technologies Use
-Java, gRPC, Apache Zookeeper\\
+Java, gRPC, Apache Zookeeper\
 
 Download <a href="https://sjsu.instructure.com/courses/1354488/files/55585055/download?wrap=1">Zookeeper Jar</a>
 
