@@ -11,11 +11,14 @@ Download <a href="https://sjsu.instructure.com/courses/1354488/files/55585055/do
 ## How it works
 ### Step 1: 
 Start Zookeeper Server:This command will start the Zookeeper server which listens on port number 9999\
+```
 java -jar zookeeper-dev-fatjar.jar server 9999 /tmp/zookeeper/
+```
 
 Start Zookeeper Client:This command will establish a connection between the client and server(Run client on a different terminal)\
+```
 java -jar zookeeper-dev-fatjar.jar client -server 127.0.0.1:9999
-
+```
 
 
 ### Step 2: 
@@ -32,8 +35,11 @@ iv. Replica's port number
 
 ### Command:
 
+```
 java -cp    target/(mvn package).jar    directory.ReplicaClassName    (Zookeeper server's ip address):(port number)   /directory-name   (Replica's ip)    (Replica's port number)  
+```
 
 For example:\
+```
 java -cp    target/chain-java-1.0-SNAPSHOT-jar-with-dependencies.jar    edu.sjsu.cs249.chain.TailChainServer    127.0.0.1:9999  /tailchain    172.20.10.4 4588
-
+```
